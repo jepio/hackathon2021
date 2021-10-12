@@ -14,7 +14,7 @@
   },
   "customHandler": {
     "description": {
-      "defaultExecutablePath": "",
+      "defaultExecutablePath": "clctranspiler",
       "workingDirectory": "",
       "arguments": []
     }
