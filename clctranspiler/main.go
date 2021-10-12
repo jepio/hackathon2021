@@ -24,7 +24,7 @@ func main() {
 		customHandlerPort = "8080"
 	}
 	mux := http.NewServeMux()
-	mux.HandleFunc("/api/hello", helloHandler)
+	mux.HandleFunc("/api/clctranspilerfunction", helloHandler)
 	fmt.Println("Go server Listening on: ", customHandlerPort)
 	log.Fatal(http.ListenAndServe(":"+customHandlerPort, mux))
 }
