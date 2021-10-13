@@ -2,5 +2,5 @@
 all:
 	go build
 
-deploy:
+deploy: all
 	func azure functionapp publish clctranspiler
