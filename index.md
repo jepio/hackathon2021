@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Hackathon 2021
 
-You can use the [editor on GitHub](https://github.com/jepio/hackathon2021/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I attempted to deploy [Container Linux Config Transpiler](https://github.com/flatcar-linux/container-linux-config-transpiler) as a serverless app to [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview).
 
 ### Markdown
 
