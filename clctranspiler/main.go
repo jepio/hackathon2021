@@ -17,7 +17,6 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("hello world"))
 	} else {
 		body, _ := ioutil.ReadAll(r.Body)
-                log.Printf("%s\n", body)
 		cfg, ast, report := config.Parse(body)
 		if len(report.Entries) > 0 {
 			w.Write([]byte(report.String()))
