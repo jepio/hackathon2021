@@ -2,6 +2,10 @@
 
 I attempted to deploy [Container Linux Config Transpiler](https://github.com/flatcar-linux/container-linux-config-transpiler) as a serverless app to [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview).
 
+### Try it
+
+{% include index.html %}
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
