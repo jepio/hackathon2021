@@ -32,7 +32,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 		dataOut, err := json.MarshalIndent(&ignCfg, "", "  ")
 		dataOut = append(dataOut, '\n')
 		if err != nil {
-			log.Fatal("Failed to marshal output: %v", err)
+			log.Fatalf("Failed to marshal output: %v", err)
 		}
 		w.Write([]byte(dataOut))
 	}
