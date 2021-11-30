@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/kinvolk/container-linux-config-transpiler/config"
+	"github.com/flatcar-linux/container-linux-config-transpiler/config"
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
